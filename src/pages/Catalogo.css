@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Merry';
 }
 
 html {
@@ -36,7 +37,6 @@ body {
   width: 100%;
   max-width: 100vw;
   min-height: 100vh;
-  font-family: 'Merry';
   overflow-x: hidden;
   margin: 0;
   padding: 0;
@@ -51,7 +51,6 @@ body {
   justify-content: center;
 
   padding: 15px clamp(15px, 5vw, 40px);
-  font-family: 'Merry';
   width: 100%;
   box-sizing: border-box;
 }
@@ -89,7 +88,6 @@ body {
   background-color: #1c7c2a;
   padding: 12px clamp(10px, 3vw, 20px);
   border-bottom: 3px solid #0f551c;
-  font-family: 'Merry';
   flex-wrap: wrap;
   width: 100%;
   max-width: 100vw;
@@ -107,7 +105,6 @@ body {
   font-size: clamp(13px, 2.2vw, 15px);
   cursor: pointer;
   transition: all 0.2s ease;
-  font-family: 'Merry';
   white-space: nowrap;
   flex-shrink: 0;
 }
@@ -124,7 +121,7 @@ body {
 /* Dropdown mejorado y centrado */
 .dropdown {
   position: relative;
-  font-family: 'Merry';
+  z-index: 1001;
 }
 
 .dropdown-content {
@@ -140,7 +137,7 @@ body {
   width: max-content;
   min-width: 160px;
   max-width: 90vw;
-  z-index: 100;
+  z-index: 1000;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
@@ -151,7 +148,6 @@ body {
   padding: 12px 15px;
   text-align: left;
   font-weight: bold;
-  font-family: 'Merry';
   font-size: clamp(13px, 2.2vw, 15px);
   transition: background-color 0.2s ease;
   cursor: pointer;
@@ -166,7 +162,6 @@ body {
 .ofertas {
   text-align: left;
   font-size: clamp(16px, 3.5vw, 20px);
-  font-family: 'Merry';
   padding: 15px clamp(15px, 5vw, 40px);
   margin-top: 10px;
   font-weight: 600;
@@ -239,7 +234,6 @@ body {
 .libro-card h3 {
   font-size: clamp(13px, 2.2vw, 16px);
   margin: 8px 0 4px;
-  font-family: 'Merry';
   font-weight: 600;
   color: #333;
   line-height: 1.3;
@@ -253,7 +247,6 @@ body {
 .libro-card p {
   font-size: clamp(12px, 2vw, 14px);
   margin: 4px 0;
-  font-family: 'Merry';
   color: #555;
 }
 
