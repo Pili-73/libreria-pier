@@ -67,7 +67,7 @@ function Catalogo() {
         </div>
       </header>
 
-      <nav className="menu">
+      <nav className={`menu ${showCategorias ? "open" : ""}`}>
 
         <button onClick={() => {
           setCategoriaSeleccionada("Todas");
