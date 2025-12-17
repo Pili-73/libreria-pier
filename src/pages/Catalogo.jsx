@@ -138,6 +138,27 @@ function Catalogo() {
               }}>
                 Infantil
               </button>
+              
+              <button onClick={() => {
+                setCategoriaSeleccionada("Romance");
+                setShowCategorias(false);
+              }}>
+                Romance
+              </button>
+              
+              <button onClick={() => {
+                setCategoriaSeleccionada("Misterio");
+                setShowCategorias(false);
+              }}>
+                Misterio
+              </button>
+              
+              <button onClick={() => {
+                setCategoriaSeleccionada("Historia");
+                setShowCategorias(false);
+              }}>
+                Historia
+              </button>
             </div>
           )}
         </div>
