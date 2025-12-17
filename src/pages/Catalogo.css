@@ -387,6 +387,31 @@ body {
     font-size: 20px;
   }
   
+  .dropdown-mobile {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  border: 2px solid #0f551c;
+  border-radius: 6px;
+  z-index: 9999;
+  width: max-content;
+  min-width: 160px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  }
+
+  .dropdown-mobile button {
+    display: block;
+    width: 100%;
+    padding: 10px 14px;
+    border: none;
+    background: white;
+    color: #1c7c2a;
+    font-weight: bold;
+    text-align: left;
+  }
+
   .menu {
     justify-content: flex-start;
     flex-wrap: nowrap;
