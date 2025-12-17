@@ -31,6 +31,11 @@ export default function CrearCuenta() {
       return;
     }
 
+    if (usuario.includes(" ")) {
+      setError("El usuario no puede contener espacios");
+      return;
+    }
+    
     if (usuario.length < 3) {
       setError("El usuario debe tener al menos 3 caracteres");
       return;
