@@ -239,7 +239,7 @@ export default function Libro() {
               <h2>{libro.titulo}</h2>
               <h4>{libro.autor}</h4>
               <p className="desc">{libro.descripcion}</p>
-              <p className="precio">{libro.precio}€</p>
+              <p className="precio">{libro.precio.toFixed(2)}€</p>
             </>
           )}
 
